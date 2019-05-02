@@ -1,0 +1,73 @@
+// Modifications for JYU Kortit -theme
+
+
+//Typography
+
+    //Used for managing margins and padding
+    $base-font-size: 18px;
+    $base-line-height: 24px;
+    $spacing-s: .25 * $base-line-height;
+    $spacing-m: .5 * $base-line-height;
+    $spacing-l: $base-line-height;
+
+    //Used for text
+    $scalable-font-size: 3vmin;
+    $scalable-line-height: 4.5vmin;
+
+    $heading-font: "Archivo Black", sans-serif;
+    $body-font: "Assistant", sans-serif;
+
+//Colors
+
+$primary-color: yellow;
+
+
+p a,
+span a {
+    text-decoration: underline;
+}
+
+#top-nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#top-nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+.browse-controls .sorting {
+    display:none;
+}
+
+h2 span.title {
+    display:none;
+}
+
+.show #content h3 {
+    display:none;
+}
+
+.show img {
+    border: 1px solid #F6F5F5;
+
+    -webkit-box-shadow: -7px 10px 25px -4px rgba(0,0,0,0.45);
+-moz-box-shadow: -7px 10px 25px -4px rgba(0,0,0,0.45);
+box-shadow: -7px 10px 25px -4px rgba(0,0,0,0.45);
+}
+.show #content h2:first-child + h3 {
+
+    display: none;
+}
+
+.search-filters .filter .filter-label {
+    display:none;
+}
+
+.resource-list .resource img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid lightgrey;
+}
+
