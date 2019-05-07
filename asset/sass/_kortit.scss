@@ -79,3 +79,22 @@ box-shadow: -7px 10px 25px -4px rgba(0,0,0,0.45);
     display:none;
 }
 
+
+
+h4.locator {
+    display:inline;
+    font-weight: normal;
+    font-size:0.9em;
+    font-family: "Assistant",sans-serif;
+    
+}
+h4.collection {
+    display:inline;
+    font-weight: normal;
+    font-size:0.9em;
+    font-family: "Assistant",sans-serif;
+}
+
+.locator::after { 
+  content: ": ";
+}

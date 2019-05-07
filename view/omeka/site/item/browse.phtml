@@ -55,12 +55,14 @@ $sortHeadings = [
         <?php if ($thumbnail = $this->thumbnail($item, 'medium')): ?>
         <?php echo $item->linkRaw($thumbnail); ?>
         <?php endif; ?>
+        <div class="locator-collection">
         <?php if ($locator = $item->value('dcterms:alternative')): ?>
         <h4 class="locator"><?php echo $item->link($locator); ?></h4>
         <?php endif; ?>
         <?php if ($collection = $item->value('dcterms:description')): ?>
         <h4 class="collection"><?php echo $collection; ?></h4>
         <?php endif; ?>
+        </div>
     </li>
     <?php endforeach; ?>
 </ul>
