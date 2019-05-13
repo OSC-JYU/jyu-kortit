@@ -106,3 +106,16 @@ footer {display:none;}
     background-color: black;
     color: white;
 }
+
+.contact-us-block > textarea#message {
+    width:400px;
+}
+
+#content > div.site-page-pagination > a {display:none;}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+}
+
+p a { background-color:transparent;}
